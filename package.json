@@ -1,0 +1,25 @@
+{
+  "name": "static-react-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "analyze": "node build.js --analyze",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "gh-pages": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "chokidar": "^3.5.3",
+    "cssnano": "^6.0.2",
+    "postcss": "^8.4.32",
+    "sharp": "^0.33.1"
+  },
+  "homepage": "https://dbbuilder.github.io/PhotoPuzzler"
+}
