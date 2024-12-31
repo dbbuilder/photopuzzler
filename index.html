@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Photo Puzzle Game</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+</head>
+<body>
+  <input 
+    type="file" 
+    id="fileInput" 
+    accept="image/*" 
+    capture="environment" 
+    style="display: none;"
+  />
+  <button id="uploadButton">Select Photo</button>
+  <label for="levelSelect">Level:</label>
+  <select id="levelSelect"></select>
+  <script src="game.js"></script>
+</body>
+</html>
